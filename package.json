@@ -1,0 +1,17 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "author": "reco_luan",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev .",
+    "build": "vuepress build .",
+    "push": "bash scripts/push.sh",
+    "deploy": "bash scripts/deploy.sh"
+  },
+  "devDependencies": {
+    "vuepress": "1.7.1",
+    "vuepress-theme-reco": "1.6.1"
+  },
+  "description": ""
+}
